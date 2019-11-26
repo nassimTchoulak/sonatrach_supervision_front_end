@@ -1,0 +1,457 @@
+body{
+    text-align: center;
+    font-family: 'Quicksand','Open Sans', sans-serif;
+    font-size: 170%;
+    color: #2e3131;
+}
+
+.my_button_v1{
+
+    padding-bottom: 3px;
+    padding-top: 10px;
+    min-height:50px;
+    border: 0px ;
+    outline: none;
+    color: #ffffff;
+    text-decoration: none;
+}/* text was #2e3131*/
+.my_button_v1:hover{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-bottom: solid 3px #ffffff;
+    cursor: pointer;
+/* may the comments worek   #2c3e50; */
+}
+.my_button_v3{
+    padding-bottom: 3px;
+    padding-top: 10px;
+    min-height:50px;
+    border: 0px ;
+    outline: none;
+    font-weight: bold;
+    color: #2e3131;
+    text-decoration: none;
+}
+.my_button_v3:hover{
+
+
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-bottom: solid 2px #A0A0A0;
+    cursor: pointer;
+
+
+}
+
+.login_error{
+    background-color: white;
+    color: #ff5774;
+    font-size: 90%;
+}
+
+
+
+
+
+
+
+
+
+a.my_button_v1 {
+    color: white;
+    text-decoration: none;
+}
+a.my_button_v1:hover{
+    color: white;
+    text-decoration: none;
+}
+
+a.my_button_v3 {
+    color:#2e3131 ;
+    text-decoration: none;
+}
+a.my_button_v3 a:hover{
+    color:#2e3131 ;
+    text-decoration: none;
+}
+a.my_button_v3 a:active{
+    color: #261326;
+}
+
+
+
+
+body .small_title{
+   font-family: 'Montserrat';
+    text-align: left;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+
+
+.my_button_v2{
+    border-radius: 5px 5px;
+    outline: none;
+    color: snow;
+    cursor: pointer;
+    background-color:#cf597a;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 2px;
+    border: solid 0.4mm #cf597a;
+
+}
+.my_button_v2:hover{
+    transition-duration: 1s;
+    background-color: #ff8697;
+    animation-name: example;
+    animation-duration: 0.5s;
+    color: white;
+}
+@keyframes example {
+    from {background-color: #ff5774;}
+    to {background-color:#ff8697 ;}
+}
+
+
+.my_text_box_v1{
+    border-top: 0px;
+    border-right: 0px;
+    border-left : 0px;
+    border-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color:#eeeeee ;
+    min-height: 40px;
+    outline: none;
+}
+.my_text_box_v1:active{
+    border-color: #ff8697;
+    min-height: 40px;
+    border-bottom: solid 5px;
+    padding-bottom:3px ;
+
+}
+
+.my_text_box_v2{
+    border-radius: 5px 5px;
+    border: solid 1px #c4c4c4;
+
+    width: 100%;
+    outline: none;
+    padding: 3px 10px;
+}
+.my_text_box_v2:focus{
+    border: solid 1px #1C39BB;
+}
+
+
+
+
+
+/* custom styles */
+
+label {
+    display: block;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .stick2{
+        position: static;
+    }
+
+}
+.zero_pad_v3{
+    padding: 0px;
+}
+
+.zero_pad{
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+
+}
+
+.zero_pad_v2{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100%;
+    min-height: 100%;
+
+
+}
+
+
+#login_0{
+    position:relative;
+
+    z-index: 50;
+}
+#login_0:hover{
+
+    z-index: 0;
+}
+
+#login_1{
+    position: absolute;
+    padding-top: 10px;
+    background-color: #B6B4B6;
+    border-radius: 4px 4px;
+    width: 100%;
+    color: white;
+    min-height: 50px;
+}
+
+
+.my_button_v4{
+    border-radius: 5px 5px;
+    outline: none;
+    color: #1C39BB;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    border: solid 0.4mm #1C39BB;
+}
+.my_button_v4:hover{
+    background-color: #eff2ff;
+}
+
+
+.my_button_forgot{
+    font-size: 80%;
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+    color: #1C39BB;
+    font-weight: bold;
+}
+.my_error_msg{
+    background-color: white;
+    color: #ff5774;
+}
+
+
+
+
+.liner{
+    border-bottom: solid 1px #A0A0A0;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    min-height: 10px;
+    margin-bottom: 10px;
+}
+.interline_more{
+    margin-top: 5px;
+    font-size: 110%;
+    padding-top: 5px;
+}
+
+
+.interline{
+    margin-top: 10px;
+    font-size: 80%;
+    padding-top: 10px;
+
+
+}
+input[type="file"]{
+    max-width: 100%;
+    display: none;
+}
+
+.textarea[name="comment"]{
+    min-height: 60px;
+    height: 60px;
+}
+
+.textarea{
+
+    font-weight: lighter;
+    outline: none;
+    border-radius: 5px 5px;
+    min-height: 100px;
+    height: 100px;
+    width: 100%;
+
+    padding: 5px;
+
+}
+.textarea:focus{
+    border: solid 1px #1C39BB;
+    padding: 5px;
+    min-width: 100%;
+
+}
+
+img {
+    image-orientation: from-image;
+    object-fit: fill;
+}
+
+.end_style{
+    min-height: 60px;
+    background-color: #2e3131;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.side_effect{
+    background-color: #ede8ed;
+    color: #0f070f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    font-size: 80%;
+    font-weight: bold;
+
+
+}
+.side_effect_all{
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .testing{
+        margin-left:0px ;
+        width: 100%;
+    }
+    .bonus_right{
+        display: none;
+    }
+}
+
+.poster_annuler_location{
+    color: #261326;
+    cursor: pointer;
+
+}
+.poster_annuler_location:hover{
+    color: #1C39BB;
+}
+
+/* elarge some comonent on fhd displays  */
+.my_logo{
+    color: #ff5774;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 180%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.holder_v8{
+    background-color: #22313f;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+    font-family: 'Exo';
+    position: fixed;
+    top:0px ;
+    left: 0px;
+    font-weight: normal;
+    font-size: 120%;
+    padding-top: 100px;
+    border: solid 1px #eff2ff;
+    z-index: 10;
+    height: 100%;
+    min-height: 100%;
+}
+.my_button_v8{
+    text-decoration: none;
+    outline: none;
+    background-color: #22313f;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 1px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.my_button_v8:hover{
+    background-color: #466078;
+}
+a.my_button_v8 {
+    color: white;
+    text-decoration: none;
+}
+a.my_button_v8:hover{
+    color: white;
+    text-decoration: none;
+}
+a.my_button_v8:active{
+    background-color: #261326;
+}
+.active_my_button_v8{
+    background-color: #385066;
+
+}
+
+
+.line_object{
+    border: solid 1px #261326;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 6px 6px;
+    background-color: #eff2ff;
+    color: #22313f;
+}
+
+.item_object{
+    display:inline;
+    padding-right:15px;
+    padding-left:15px;
+
+}
+
+.my_button_v16{
+    color: snow;
+    background-color: #22313f;
+    border-radius: 3px 3px;
+    border: solid 1px #22313f;
+    padding: 5px 12px 5px 5px ;
+
+    font-weight: normal;
+
+}
+.my_button_v16:hover{
+    background-color: #261326;
+}
+.returned_value{
+    font-weight: lighter;
+    outline: none;
+    border-radius: 5px 5px;
+    min-height: 100px;
+    font-size: 70%;
+    text-align: left;
+    overflow-x: scroll;
+    padding: 5px;
+    border: solid 1px #1C39BB;
+
+
+}
+
+.mini_button{
+ color:#261326;
+    border:solid 1px #261326;
+    cursor:pointer;
+
+}
+.mini_button:hover{
+    background-color: #9ca9b5;
+}
